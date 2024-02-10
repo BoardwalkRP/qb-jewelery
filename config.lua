@@ -5,47 +5,65 @@ Config = Config or {}
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 
 Config.Timeout = 30 * (60 * 2000)
-Config.RequiredCops = 2
+Config.RequiredCops = 1
 Config.JewelleryLocation = {
     ['coords'] = vector3(-630.5, -237.13, 38.08),
 }
 
 Config.WhitelistedWeapons = {
-    [`weapon_assaultrifle`] = {
-        ['timeOut'] = 10000
+    [`weapon_ar10`] = {
+        ["timeOut"] = 10000
     },
-    [`weapon_carbinerifle`] = {
-        ['timeOut'] = 10000
+    [`weapon_m16`] = {
+        ["timeOut"] = 10000
     },
     [`weapon_pumpshotgun`] = {
-        ['timeOut'] = 10000
+        ["timeOut"] = 10000
     },
     [`weapon_sawnoffshotgun`] = {
-        ['timeOut'] = 10000
+        ["timeOut"] = 10000
     },
-    [`weapon_compactrifle`] = {
-        ['timeOut'] = 10000
+    [`weapon_spring`] = {
+        ["timeOut"] = 10000
     },
     [`weapon_microsmg`] = {
-        ['timeOut'] = 10000
+        ["timeOut"] = 10000
     },
     [`weapon_autoshotgun`] = {
-        ['timeOut'] = 10000
+        ["timeOut"] = 10000
     },
     [`weapon_pistol`] = {
-        ['timeOut'] = 10000
+        ["timeOut"] = 10000
     },
     [`weapon_pistol_mk2`] = {
-        ['timeOut'] = 10000
+        ["timeOut"] = 10000
     },
     [`weapon_combatpistol`] = {
-        ['timeOut'] = 10000
+        ["timeOut"] = 10000
     },
     [`weapon_appistol`] = {
-        ['timeOut'] = 10000
+        ["timeOut"] = 10000
     },
     [`weapon_pistol50`] = {
-        ['timeOut'] = 10000
+        ["timeOut"] = 10000
+    },
+    [`weapon_dbshotgun`] = {
+        ["timeOut"] = 10000
+    },
+    [`weapon_gusenberg`] = {
+        ["timeOut"] = 10000
+    },
+    [`weapon_compactrifle`] = {
+        ["timeOut"] = 10000
+    },
+    [`weapon_mp40`] = {
+        ["timeOut"] = 10000
+    },
+    [`weapon_assaultrifle`] = {
+        ["timeOut"] = 10000
+    },
+    [`weapon_mg42`] = {
+        ["timeOut"] = 10000
     },
 }
 
